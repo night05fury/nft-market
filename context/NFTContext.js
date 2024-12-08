@@ -3,7 +3,7 @@ import Web3Modal from 'web3modal';
 import { ethers } from 'ethers';
 import axios from 'axios';
 
-import { MarketAddress, MarketAddressABI } from './constants';
+import { MarketAddress, MarketAddressABI } from './constant';
 
 export const NFTContext = React.createContext();
 

@@ -14,7 +14,7 @@ const Home = () => {
     </div>
     </div>
 
-  )
-}
+  );
+};
 
-export default index
+export default Home;
