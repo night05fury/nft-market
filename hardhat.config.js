@@ -3,7 +3,7 @@ const fs = require('fs');
 require('@nomiclabs/hardhat-waffle');
 // Read the private key securely from a file named '.secret'
 const privateKey = fs.readFileSync('.secret').toString().trim();
-console,.log(privateKey);
+console.log(privateKey);
 
 module.exports = {
   networks: {
